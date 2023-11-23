@@ -13,6 +13,7 @@ export class PersonajesService {
         .get<string>("ENDPOINT_PERSONAJES");
        
         //hacer la peticion a la api
+        //HttpService
         let res = await axios.get(url);
 
         let data = res.data;

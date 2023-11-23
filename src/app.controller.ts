@@ -1,5 +1,4 @@
 import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
 import { PersonajesService } from './services/personajes.service';
 import { Personaje } from './model/personaje';
 
